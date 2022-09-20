@@ -1,38 +1,84 @@
-.App {
-  text-align: center;
+.bg-banner {
+  background-image: url("./assets/background/banner-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center center; */
+  /* background-attachment: fixed; */
+  /* height: 150vh; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.text-gradient {
+  background: -webkit-linear-gradient(75deg, #41a58d, #eee);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.button-gradient {
+  background: -webkit-linear-gradient(360deg, #41a58d, #1b2f2a);
+  /* -webkit-text-fill-color: transparent; */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.bg-middle {
+  background-image: url("./assets/background/middle-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 50vh;
 }
 
-.App-link {
-  color: #61dafb;
+.bg-partner {
+  background-image: url("./assets/background/partner-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 50vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bg-news {
+  background-image: url("./assets/background/news-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center center; */
+  /* background-attachment: fixed; */
+  /* height: 150vh; */
+}
+
+input {
+  background-color: transparent;
+  border-radius: 20px;
+  border-width: 1px;
+  height: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+  outline: none;
+}
+
+.bg-gradient {
+  background: -webkit-linear-gradient(347deg, #1b2f2a, #000000);
+  /* -webkit-text-fill-color: transparent; */
+}
+
+.bg-enroll {
+  background-image: url("./assets/background/enroll-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-community {
+  background-image: url("./assets/background/comminity-banner-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-middleright {
+  background-image: url("./assets/background/community-middle-right.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-middleleft {
+  background-image: url("./assets/background/community-middle-left.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }

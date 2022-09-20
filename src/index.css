@@ -1,6 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "SoraBold";
+  src: local("SoraBold"), url(./assets/fonts/SORA-BOLD.TTF) format("truetype");
+}
+
+@font-face {
+  font-family: "SoraLight";
+  src: local("SoraLight"), url(./assets/fonts/SORA-LIGHT.TTF) format("truetype");
+}
+
+@font-face {
+  font-family: "SoraRegular";
+  src: local("SoraRegular"), url(./assets/fonts/SORA-REGULAR.TTF) format("truetype");
+}
+
+@font-face {
+  font-family: "SoraSemibold";
+  src: local("SoraSemibold"), url(./assets/fonts/SORA-SEMIBOLD.TTF) format("truetype");
+}
+
+@font-face {
+  font-family: "SoraThin";
+  src: local("SoraThin"), url(./assets/fonts/SORA-THIN.TTF) format("truetype");
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: -apple-system, BlinkMacSystemFont, 'SoraBold', 'SoraLight', 'SoraRegular', 'SoraSemibold', 'SoraThin', 
+    'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
